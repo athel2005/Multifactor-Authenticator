@@ -71,7 +71,7 @@ def login_user():
         print("Incorrect password!")
         return False
 
-    # ← Module 2's MFA will go here
+   
         # Step 2: OTP Generation
     otp = str(random.randint(100000, 999999))
     print(f"\n📲 Your OTP is: {otp}")
